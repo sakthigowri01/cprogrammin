@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char a[10];
+	char a[20];
 	int m,i,flag=0;
 	gets(a);
 	m=strlen(a);
-	for(i=0;i<m;i++)
+	for(i=0;i<m;i--)
 	{
 		if(a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u')
 		{
